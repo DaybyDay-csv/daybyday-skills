@@ -6,12 +6,15 @@ description: >-
   (mecanicas-atencion-hooks, glosario-playbook-video-ads, sistema-operativo-creativo,
   direct-response-copy-engine, copy-estilo-jesus y sop-campanas-alertas-n8n) en un
   flujo de 7 fases: entender, posicionar, una idea, estructura, receta creativa,
-  escribir con voz humana, auditar y medir. Úsala SIEMPRE que haya que crear o
+  escribir con voz humana, auditar y medir. Encima, enruta la capa de negocio
+  (oferta-grand-slam, money-model-secuencia-ofertas, generacion-leads-core-four):
+  si el problema real es qué vender, a qué precio, cómo monetizar o cómo conseguir
+  leads, esa skill va ANTES que el copy. Úsala SIEMPRE que haya que crear o
   revisar comunicación que busca mover a alguien a actuar —anuncios, guiones de
   vídeo, landings, páginas de venta, posts, emails, secuencias, ganchos, ofertas,
   CTAs— o cuando el usuario pida vender sin vender, que no suene a IA, que conecte
-  de verdad, un brief, un ángulo, una campaña o un sistema de contenido. Decide qué
-  skill consultar en cada paso y pone el filtro ético y humano por encima de la
+  de verdad, un brief, un ángulo, una campaña, una oferta o un sistema de contenido.
+  Decide qué skill consultar en cada paso y pone el filtro ético y humano por encima de la
   técnica: comprensión + claridad + invitación voluntaria, sin manipulación ni
   miedo. Empieza por aquí cuando la tarea toque varias piezas a la vez.
 ---
@@ -37,6 +40,22 @@ cada skill es autónoma y se consulta por su nombre.
 Esta skill es el director de orquesta. Estas son las músicas. Consulta cada una solo cuando el
 pipeline lo pide.
 
+### Capa de negocio (antes del pipeline, si el problema está más arriba del copy)
+
+El copy no arregla una oferta rota. Antes de la Fase 0, comprueba si el problema real del
+usuario es de negocio; si lo es, la skill de negocio va primero:
+
+| Skill | Qué resuelve | Cuándo |
+|---|---|---|
+| `oferta-grand-slam` | El QUÉ y el CUÁNTO: mercado hambriento, ecuación de valor, pricing premium, trim & stack, amplificadores. | Hay que diseñar una oferta, subir precio, dejar de ser commodity o empaquetar un servicio. |
+| `money-model-secuencia-ofertas` | El DINERO: secuencia de ofertas (atracción, upsell, downsell, continuidad) para recuperar el CAC en 30 días. | Hay que monetizar, mejorar caja/márgenes, montar upsells o financiar el crecimiento. |
+| `generacion-leads-core-four` | La GENTE: Core Four, lead magnets, Regla de 100, multiplicadores. | Faltan leads, no llega gente a la agenda, o hay que escalar captación. |
+
+Si el problema es de negocio, resuélvelo con su skill y luego baja al pipeline para comunicarlo.
+Si el problema es solo de comunicación, entra directo en las fases.
+
+### Capa de ejecución (las fases del pipeline)
+
 | Skill | Qué resuelve | Cuándo |
 |---|---|---|
 | `mecanicas-atencion-hooks` | Por qué el cerebro frena el scroll: 18 mecánicas, anatomía del hook, swipe file, niveles de consciencia y sofisticación. | Fase 1 y el hook de la Fase 4 |
@@ -45,6 +64,9 @@ pipeline lo pide.
 | `copy-estilo-jesus` | La voz: humana, concreta, con autoridad tranquila. Parábola, pregunta socrática, devolver dignidad, invitación voluntaria. | Fase 3, Fase 5 y Fase 6 |
 | `sistema-operativo-creativo` | La receta del creativo de vídeo: IDs de Hook (`H-`), Estructura (`S-`), Formato (`F-`), Ángulo (`A-`), CTA (`C-`) y Edición (`E-`). Testeo por variable. | Fase 4 y Fase 7 |
 | `sop-campanas-alertas-n8n` | La operación: rutinas diaria/semanal/mensual, umbrales y alertas en n8n para gestionar y medir las campañas. | Fase 7 |
+
+Y `tono-humano` por encima de todas: se aplica a CUALQUIER prosa que se entregue (copy, emails,
+propuestas y también la respuesta en el chat), desde la primera frase.
 
 Regla de oro heredada del playbook: nunca elijas el formato primero. El orden correcto es siempre
 audiencia → mensaje → estructura → ejecución.

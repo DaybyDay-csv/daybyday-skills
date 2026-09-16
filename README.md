@@ -1,40 +1,71 @@
 # daybyday-skills
 
-Internal doctrine for DayByDay content. **Not public.** These skills shape how any AI agent writes or audits copy for DayByDay — blog posts, social, ads, landings.
+Doctrina interna de DaybyDay: cómo pensamos ofertas, negocio y copy.
+**Repo privado.** Estas skills definen cómo cualquier agente (zcode, opencode,
+Claude Code, n8n) escribe, audita y decide para DaybyDay.
 
-## How an agent should use this repo
+## Las 11 skills y cómo se organizan
 
-If you are an AI agent (Claude Code, opencode, n8n agent, anything) writing or auditing copy for DayByDay, **read these files in this order before producing a single sentence**:
+```
+tono-humano  ──────────────  la VOZ: obligatoria en toda prosa, siempre
+                             (incluida la respuesta del agente en el chat)
 
-1. **`tono-humano/SKILL.md`** — voice, banned phrases, anti-IA structures. This is the floor. Nothing below this line gets shipped.
-2. **`ethical-conversion-system/SKILL.md`** — orchestrator. The 7-phase pipeline. Decides which other skill to consult when.
-3. **`direct-response-copy-engine/SKILL.md`** — doctrine (Schwartz, Masterson, Dry). Rule of One, six leads, three line tests, scorecard.
-4. **`copy-estilo-jesus/SKILL.md`** — frameworks F1-F6 and ethical guardrail. The "voice" complement to copy mechanics.
-5. **`mecanicas-atencion-hooks/SKILL.md`** — 18 attention mechanics for hooks + `references/sistema-hooks.md` for the deep version.
+ethical-conversion-system  ─  la MAESTRA: pipeline de 7 fases; decide qué
+                             skill consultar en cada paso
 
-## The non-negotiables (from `tono-humano`)
+Capa de negocio (antes del copy, si el problema está más arriba):
+  oferta-grand-slam            QUÉ vender y CUÁNTO cobrar (Hormozi, $100M Offers)
+  money-model-secuencia-ofertas  CÓMO se financia el crecimiento (Money Models)
+  generacion-leads-core-four     CÓMO conseguir leads (Core Four, $100M Leads)
 
-- No **bold**, *italic*, or underlined emphasis in body prose. (Tables and headers are fine.)
-- No "No es X, es Y" as empty antithesis.
-- No anaphora stacks ("Más alcance. Más leads. Más ventas.").
-- No "Here's the thing" / "Mira..." as filler.
-- No rhetorical hooks that fake suspense ("¿El resultado? Cero clientes.").
-- **Always** read the draft aloud before shipping. If it sounds like a coach in a BMW, rewrite. If it sounds like a friend in a café, ship.
+Capa de ejecución (las fases del pipeline):
+  mecanicas-atencion-hooks       GANCHOS: 18 mecánicas de atención
+  glosario-playbook-video-ads    VÍDEO ADS: consciencia + frameworks + formatos
+  sistema-operativo-creativo     TESTING: recetas de creativo por IDs (H-/S-/F-…)
+  direct-response-copy-engine    COPY: Schwartz/Masterson/Dry, generar y auditar
+  copy-estilo-jesus              VOZ profunda: parábola, dignidad, invitación
 
-## The non-negotiables (from `copy-estilo-jesus`)
+Capa de operación:
+  sop-campanas-alertas-n8n       ADS EN VIVO: rutinas, umbrales y alertas n8n
+```
 
-- Speak to the deep need, not the surface request.
-- Concrete image before abstract concept.
-- Story before lesson.
-- Dignity before change.
-- Sell the new identity, not the task.
-- **Invitation is voluntary.** No fake urgency, no manufactured guilt, no false countdown.
-- If you removed fear, guilt, and false urgency and the message stopped moving the person, it was manipulation. Rewrite it.
+Regla de oro: nunca elijas el formato primero. Audiencia → mensaje → estructura → ejecución.
+Y el copy no arregla una oferta rota: si el problema es de negocio, la skill de negocio va antes.
 
-## Integration with DayByDayWeb-HTML
+## Cómo usa esto un agente
 
-The 6-gate pipeline in `DaybyDay-csv/DaybyDayWeb-HTML` (`scripts/qa-checklist.mjs` and beyond) enforces a small subset of these rules as a CI safety net. The full doctrine is for the **agent at write time**, not the regex at build time.
+1. Toda prosa que se entregue pasa por `tono-humano` (desde la primera frase).
+2. Toda tarea de copy/campaña/oferta empieza por `ethical-conversion-system`.
+3. Si el problema es qué vender, precio, caja o leads: la skill de negocio correspondiente antes.
+4. Las skills son autónomas: se consultan por nombre; los detalles profundos
+   están en `references/` dentro de cada una.
 
-## Versioning
+## Instalación (dónde vive el canónico)
 
-These skills evolve. Pin a commit SHA in any agent that consumes them so behavior is reproducible.
+Este repo es la fuente de verdad. Las skills se despliegan como copias a los
+tres directorios que los agentes leen:
+
+- `~/.zcode/skills/<skill>/` — zcode (las lista y las propone por su `description`)
+- `~/.config/opencode/skills/<skill>/` — opencode
+- `~/.claude/skills/<skill>/` — Claude Code
+
+Para desplegar o actualizar tras un cambio:
+
+```
+./sync.sh          # rsync de las 11 skills a los tres destinos
+```
+
+Pin de versión: los agentes que consuman esto por GitHub pueden fijar un SHA de commit.
+
+## Los innegociables (resumen)
+
+- Sin negritas/cursivas de énfasis en prosa (tono-humano).
+- Nada de "no es X, es Y" vacío, anáforas apiladas ni preguntas retóricas de relleno.
+- Léelo en voz alta antes de entregar: si suena a coach de reel, se reescribe.
+- Invitación, nunca presión: sin urgencia falsa, culpa ni FOMO fabricado.
+- Si quitas el miedo y la pieza deja de mover, era manipulación: reescríbela.
+
+## Contenido
+
+- `runbooks/` — runbooks de workflows (blog, n8n, autoridad de fuentes).
+- `<skill>/SKILL.md` — la skill autónoma; `<skill>/references/` — el detalle.
