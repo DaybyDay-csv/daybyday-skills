@@ -1,22 +1,17 @@
 ---
 name: ethical-conversion-system
 description: >-
-  Skill maestra y sistema operativo de comunicación humana y conversión ética. Es
-  la capa de arriba que orquesta el resto de skills del sistema
-  (mecanicas-atencion-hooks, glosario-playbook-video-ads, sistema-operativo-creativo,
-  direct-response-copy-engine, copy-estilo-jesus y sop-campanas-alertas-n8n) en un
-  flujo de 7 fases: entender, posicionar, una idea, estructura, receta creativa,
-  escribir con voz humana, auditar y medir. Encima, enruta la capa de negocio
-  (oferta-grand-slam, money-model-secuencia-ofertas, generacion-leads-core-four):
-  si el problema real es qué vender, a qué precio, cómo monetizar o cómo conseguir
-  leads, esa skill va ANTES que el copy. Úsala SIEMPRE que haya que crear o
-  revisar comunicación que busca mover a alguien a actuar —anuncios, guiones de
-  vídeo, landings, páginas de venta, posts, emails, secuencias, ganchos, ofertas,
-  CTAs— o cuando el usuario pida vender sin vender, que no suene a IA, que conecte
-  de verdad, un brief, un ángulo, una campaña, una oferta o un sistema de contenido.
-  Decide qué skill consultar en cada paso y pone el filtro ético y humano por encima de la
-  técnica: comprensión + claridad + invitación voluntaria, sin manipulación ni
-  miedo. Empieza por aquí cuando la tarea toque varias piezas a la vez.
+  Skill maestra del sistema DaybyDay: orquesta las demás skills en un pipeline
+  de 7 fases (entender, posicionar, una idea, estructura, receta creativa,
+  escribir con voz humana, auditar y medir). Enruta breakthrough-advertising
+  (estrategia de mensaje) y la capa de negocio —oferta-grand-slam,
+  money-model-secuencia-ofertas, generacion-leads-core-four— ANTES del copy si
+  el problema es qué vender, precio, caja o leads. Úsala SIEMPRE que haya que
+  crear o revisar comunicación que mueve a alguien a actuar —anuncios, guiones
+  de vídeo, landings, posts, emails, ganchos, ofertas, CTAs— o cuando pidan
+  vender sin vender, que no suene a IA, un brief, un ángulo o una campaña. Pone
+  el filtro ético por encima de la técnica. Empieza por aquí cuando la tarea
+  toque varias piezas a la vez.
 ---
 
 # Ethical Conversion System · el sistema operativo que orquesta todo
@@ -58,6 +53,7 @@ Si el problema es solo de comunicación, entra directo en las fases.
 
 | Skill | Qué resuelve | Cuándo |
 |---|---|---|
+| `breakthrough-advertising` | La ESTRATEGIA del mensaje: deseo masivo, awareness 1-5, sofisticación 1-5, performance dominante, mechanism y las 7 técnicas del cuerpo. Diagnostica el mercado y decide QUÉ decir antes de CÓMO. | Fase 1 en profundidad y SIEMPRE que el problema sea el ángulo, la claim o por qué un anuncio no convierte. |
 | `mecanicas-atencion-hooks` | Por qué el cerebro frena el scroll: 18 mecánicas, anatomía del hook, swipe file, niveles de consciencia y sofisticación. | Fase 1 y el hook de la Fase 4 |
 | `glosario-playbook-video-ads` | A quién le hablas (consciencia + sofisticación) y frameworks de guion (AIDA, PAS, BAB, 4Ps, FAB, PASTOR, StoryBrand) + formatos de vídeo. | Fase 1 y Fase 3 |
 | `direct-response-copy-engine` | La doctrina del copy: Regla de Uno, los seis leads, los tres tests de Harry Dry y el scorecard de auditoría. Modo Generar y modo Auditar. | Fase 2, Fase 5 y Fase 6 |
@@ -102,7 +98,10 @@ Output: una frase con el dolor real, una con la transformación y el mecanismo (
 
 ### Fase 1 · Posicionar al prospecto
 
-Consulta `glosario-playbook-video-ads` para situar a la audiencia en su nivel de consciencia y al
+Consulta `breakthrough-advertising` para el diagnóstico profundo del mercado
+(deseo masivo dominante, state of awareness, sofisticación y la jugada exacta
+que exige ese punto de la matriz), `glosario-playbook-video-ads` para situar a
+la audiencia en su nivel de consciencia y al
 mercado en su sofisticación, y `mecanicas-atencion-hooks` para decidir qué mecánica de atención
 abre la pieza. Esto fija el ángulo y cuánto tienes que innovar el mensaje. Tráfico frío suele estar
 en niveles 1-3: lidera con problema o historia, no con oferta.
