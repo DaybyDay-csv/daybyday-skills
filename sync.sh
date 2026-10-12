@@ -3,7 +3,7 @@
 # Uso: ./sync.sh
 set -euo pipefail
 SRC="$(cd "$(dirname "$0")" && pwd)"
-SKILLS="breakthrough-advertising copy-estilo-jesus direct-response-copy-engine ethical-conversion-system generacion-leads-core-four glosario-playbook-video-ads mecanicas-atencion-hooks money-model-secuencia-ofertas oferta-grand-slam sistema-operativo-creativo sop-campanas-alertas-n8n tono-humano"
+SKILLS="breakthrough-advertising consultor-harmozy consultor-meta-ads-markbuildsbrands copy-estilo-jesus direct-response-copy-engine ethical-conversion-system generacion-leads-core-four glosario-playbook-video-ads mecanicas-atencion-hooks money-model-secuencia-ofertas oferta-grand-slam sistema-operativo-creativo sop-campanas-alertas-n8n tono-humano"
 DESTS=(
   "$HOME/.zcode/skills"
   "$HOME/.config/opencode/skills"
