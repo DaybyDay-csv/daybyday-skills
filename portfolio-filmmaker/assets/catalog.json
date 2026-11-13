@@ -1,0 +1,691 @@
+[
+  {
+    "slug": "sturge-toth",
+    "title": "Sturge Toth",
+    "client": "Sturge Toth",
+    "industry": "Yacht Design",
+    "category": "yachting",
+    "track": "production",
+    "location": "Cannes",
+    "summary": "Superyacht design, filmed the way the studio draws it: light, proportion, patience.",
+    "description": "A superyacht design house with studios in London, Antibes and Vienna. We filmed the yard, the deck work and the presentation of a new build during Cannes — no voiceover, no music-video cutting. The object carries the film.",
+    "services": [
+      "Direction",
+      "Production",
+      "Color"
+    ],
+    "sort_order": 1,
+    "cover": {
+      "id": "sturge-toth-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/sturge-toth/sturge-toth-01.mp4",
+      "poster": "/media/sturge-toth/sturge-toth-01.jpg",
+      "portraitMp4": "/media/sturge-toth/cannes-festival.mp4",
+      "portraitPoster": "/media/sturge-toth/cannes-festival.jpg",
+      "alt": "Sturge Toth superyacht deck"
+    },
+    "assets": [
+      {
+        "id": "sturge-toth-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/sturge-toth/sturge-toth-01.mp4",
+        "poster": "/media/sturge-toth/sturge-toth-01.jpg",
+        "alt": "Sturge Toth superyacht deck"
+      },
+      {
+        "id": "cannes-festival",
+        "kind": "video",
+        "orientation": "portrait",
+        "mp4": "/media/sturge-toth/cannes-festival.mp4",
+        "poster": "/media/sturge-toth/cannes-festival.jpg",
+        "alt": "Cannes Festival, part one"
+      }
+    ]
+  },
+  {
+    "slug": "yacht-closet",
+    "title": "Yacht Closet",
+    "client": "Yacht Closet",
+    "industry": "Yachting",
+    "category": "yachting",
+    "track": "production",
+    "location": "Monaco",
+    "summary": "A wardrobe built for the water. One day, one boat, fifteen photos and a reel.",
+    "description": "Interior, deck and detail for a yacht apparel brand. Shot in a single day around the owner's boat in Monaco — the kind of job where a cabin does more selling than any voiceover.",
+    "services": [
+      "Direction",
+      "Production",
+      "Photos"
+    ],
+    "sort_order": 2,
+    "cover": {
+      "id": "yacht-closet-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/yacht-closet/yacht-closet-01.mp4",
+      "poster": "/media/yacht-closet/yacht-closet-01.jpg",
+      "alt": "Yacht Closet interior"
+    },
+    "assets": [
+      {
+        "id": "yacht-closet-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/yacht-closet/yacht-closet-01.mp4",
+        "poster": "/media/yacht-closet/yacht-closet-01.jpg",
+        "alt": "Yacht Closet interior"
+      }
+    ]
+  },
+  {
+    "slug": "porsche-south-of-france",
+    "title": "Porsche",
+    "client": "Porsche South of France",
+    "industry": "Automotive",
+    "category": "cars",
+    "track": "production",
+    "location": "South of France",
+    "summary": "Metal, heat and the south of France. A first film for one of the largest dealers in Europe.",
+    "description": "A first piece for the largest Porsche dealer in the south of France. Shot and cut with a live plate in every frame — the car is not a prop, it is the subject, and the grade does the rest.",
+    "services": [
+      "Direction",
+      "Production",
+      "Color"
+    ],
+    "sort_order": 1,
+    "cover": {
+      "id": "porsche-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/porsche-south-of-france/porsche-01.mp4",
+      "poster": "/media/porsche-south-of-france/porsche-01.jpg",
+      "alt": "Porsche cinematic film"
+    },
+    "assets": [
+      {
+        "id": "porsche-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/porsche-south-of-france/porsche-01.mp4",
+        "poster": "/media/porsche-south-of-france/porsche-01.jpg",
+        "alt": "Porsche cinematic film"
+      }
+    ]
+  },
+  {
+    "slug": "gf-entertainment",
+    "title": "Yachtllywood",
+    "client": "GF Entertainment",
+    "industry": "Entertainment",
+    "category": "luxury-events",
+    "track": "production",
+    "location": "Monaco",
+    "summary": "Five days, one party, an FPV drone lost in the process. The room, not the guest list.",
+    "description": "A magazine launch produced by GF Entertainment during the Monaco season. Five days of coverage compressed into a reel and a recap — FPV inside the room, the show from the floor, the faces that carry the night.",
+    "services": [
+      "Direction",
+      "Production",
+      "FPV"
+    ],
+    "sort_order": 1,
+    "cover": {
+      "id": "gf-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/gf-entertainment/gf-01.mp4",
+      "poster": "/media/gf-entertainment/gf-01.jpg",
+      "alt": "Yachtllywood party, Monaco"
+    },
+    "assets": [
+      {
+        "id": "gf-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/gf-entertainment/gf-01.mp4",
+        "poster": "/media/gf-entertainment/gf-01.jpg",
+        "alt": "Yachtllywood party, Monaco"
+      }
+    ]
+  },
+  {
+    "slug": "luxuara-villa-event",
+    "title": "Villa Event",
+    "client": "Luxuara Agency",
+    "industry": "Luxury Events",
+    "category": "luxury-events",
+    "track": "production",
+    "location": "Côte d'Azur",
+    "summary": "A private villa turned into a set. One night, filmed as a single continuous feeling.",
+    "description": "A private villa event for Luxuara Agency. Pre-production was done before the crew arrived — the shots were planned around the light and the schedule of the house, not improvised on the night.",
+    "services": [
+      "Direction",
+      "Production"
+    ],
+    "sort_order": 2,
+    "cover": {
+      "id": "luxuara-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/luxuara-villa-event/luxuara-01.mp4",
+      "poster": "/media/luxuara-villa-event/luxuara-01.jpg",
+      "alt": "Villa event, Côte d'Azur"
+    },
+    "assets": [
+      {
+        "id": "luxuara-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/luxuara-villa-event/luxuara-01.mp4",
+        "poster": "/media/luxuara-villa-event/luxuara-01.jpg",
+        "alt": "Villa event, Côte d'Azur"
+      }
+    ]
+  },
+  {
+    "slug": "the-magician",
+    "title": "The Magician",
+    "client": "Private Client",
+    "industry": "Live Performance",
+    "category": "luxury-events",
+    "track": "production",
+    "location": null,
+    "summary": "Close-up magic, shot close-up. The hands are the product and the film stays on them.",
+    "description": "A private show filmed from the front row. No audience cutaways, no reaction shots — the performance is the film, and the edit protects the trick.",
+    "services": [
+      "Production",
+      "Edit"
+    ],
+    "sort_order": 3,
+    "cover": {
+      "id": "magician-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/the-magician/magician-01.mp4",
+      "poster": "/media/the-magician/magician-01.jpg",
+      "alt": "Close-up magic performance"
+    },
+    "assets": [
+      {
+        "id": "magician-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/the-magician/magician-01.mp4",
+        "poster": "/media/the-magician/magician-01.jpg",
+        "alt": "Close-up magic performance"
+      }
+    ]
+  },
+  {
+    "slug": "running",
+    "title": "Running",
+    "client": "Zavia Paris",
+    "industry": "Sportswear",
+    "category": "sport",
+    "track": "personal-branding",
+    "location": "Paris",
+    "summary": "A runner, a city, and the pace of a morning nobody else is awake for.",
+    "description": "Running work shot in Paris and on location for Zavia. Motion first: low shutter, speed ramps, the body treated as movement rather than as a pose. Photos included from the same sessions.",
+    "services": [
+      "Direction",
+      "Production",
+      "Photos"
+    ],
+    "sort_order": 1,
+    "cover": {
+      "id": "running-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/running/running-01.mp4",
+      "poster": "/media/running/running-01.jpg",
+      "alt": "Running, Paris"
+    },
+    "assets": [
+      {
+        "id": "running-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/running/running-01.mp4",
+        "poster": "/media/running/running-01.jpg",
+        "alt": "Running portfolio film"
+      },
+      {
+        "id": "running-02",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/running/running-02.mp4",
+        "poster": "/media/running/running-02.jpg",
+        "alt": "Zavia Paris running film"
+      },
+      {
+        "id": "running-photo-01",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-01.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-02",
+        "kind": "photo",
+        "orientation": "portrait",
+        "poster": "/media/running/photos/running-photo-02.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-03",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-03.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-04",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-04.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-05",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-05.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-06",
+        "kind": "photo",
+        "orientation": "portrait",
+        "poster": "/media/running/photos/running-photo-06.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-07",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-07.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-08",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-08.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-09",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-09.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-10",
+        "kind": "photo",
+        "orientation": "portrait",
+        "poster": "/media/running/photos/running-photo-10.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-11",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-11.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-12",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-12.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-13",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-13.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-14",
+        "kind": "photo",
+        "orientation": "portrait",
+        "poster": "/media/running/photos/running-photo-14.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-15",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-15.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-16",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-16.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-17",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-17.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-18",
+        "kind": "photo",
+        "orientation": "portrait",
+        "poster": "/media/running/photos/running-photo-18.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-19",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-19.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-20",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-20.jpg",
+        "alt": "Running photos, Paris"
+      },
+      {
+        "id": "running-photo-21",
+        "kind": "photo",
+        "orientation": "landscape",
+        "poster": "/media/running/photos/running-photo-21.jpg",
+        "alt": "Running photos, Paris"
+      }
+    ]
+  },
+  {
+    "slug": "boxing-club",
+    "title": "Boxing Club",
+    "client": "Boxing Club",
+    "industry": "Training",
+    "category": "sport",
+    "track": "personal-branding",
+    "location": null,
+    "summary": "Wraps, sweat and a room that smells of it. Training filmed without glamour.",
+    "description": "A training session turned into a short film. The brief was simple: no gym-ad lighting, no hero shots. Just the work and the sound of it.",
+    "services": [
+      "Direction",
+      "Production",
+      "Edit"
+    ],
+    "sort_order": 2,
+    "cover": {
+      "id": "boxing-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/boxing-club/boxing-01.mp4",
+      "poster": "/media/boxing-club/boxing-01.jpg",
+      "alt": "Boxing club training"
+    },
+    "assets": [
+      {
+        "id": "boxing-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/boxing-club/boxing-01.mp4",
+        "poster": "/media/boxing-club/boxing-01.jpg",
+        "alt": "Boxing club training"
+      }
+    ]
+  },
+  {
+    "slug": "daniel-fernandez",
+    "title": "Daniel Fernandez",
+    "client": "Daniel Fernandez",
+    "industry": "Influencers",
+    "category": "influencers",
+    "track": "personal-branding",
+    "location": null,
+    "summary": "Monaco across three frames: facade, profile, and hands at card work.",
+    "description": "The camera holds Monte-Carlo as it is: symmetrical facades under flat morning light, a figure set against the tiered hillside, hands turning cards beside the harbor. Framing stays patient and frontal; the muted grade and unhurried cuts let place and gesture carry the film.",
+    "services": [
+      "Production",
+      "Edit"
+    ],
+    "sort_order": 1,
+    "cover": {
+      "id": "daniel-fernandez-01",
+      "kind": "video",
+      "orientation": "portrait",
+      "mp4": "/media/daniel-fernandez/daniel-fernandez-01.mp4?v=2",
+      "poster": "/media/daniel-fernandez/daniel-fernandez-01.jpg?v=2",
+      "alt": "Daniel Fernandez"
+    },
+    "assets": [
+      {
+        "id": "daniel-fernandez-01",
+        "kind": "video",
+        "orientation": "portrait",
+        "mp4": "/media/daniel-fernandez/daniel-fernandez-01.mp4?v=2",
+        "poster": "/media/daniel-fernandez/daniel-fernandez-01.jpg?v=2",
+        "alt": "Daniel Fernandez"
+      }
+    ]
+  },
+  {
+    "slug": "skydiving",
+    "title": "Skydiving",
+    "client": "Skydiving",
+    "industry": "Sport",
+    "category": "sport",
+    "track": "personal-branding",
+    "location": null,
+    "summary": "Skydive sequence traced from cinched harness to open canopy over patchwork fields.",
+    "description": "The film opens on hands working a harness buckle in cool green light. A fisheye wide holds freefall against the earth's curve; the red canopy blooms over a tilted horizon. Coverage moves precisely from tactile detail to expanse.",
+    "services": [
+      "Production",
+      "Edit"
+    ],
+    "sort_order": 3,
+    "cover": {
+      "id": "skydiving-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/skydiving/skydiving-01.mp4?v=2",
+      "poster": "/media/skydiving/skydiving-01.jpg?v=2",
+      "alt": "Skydiving"
+    },
+    "assets": [
+      {
+        "id": "skydiving-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/skydiving/skydiving-01.mp4?v=2",
+        "poster": "/media/skydiving/skydiving-01.jpg?v=2",
+        "alt": "Skydiving"
+      }
+    ]
+  },
+  {
+    "slug": "workout",
+    "title": "Workout",
+    "client": "Workout",
+    "industry": "Sport",
+    "category": "sport",
+    "track": "personal-branding",
+    "location": null,
+    "summary": "Pull-ups on a sun-bleached seaside bar, shot in low angles and hard light.",
+    "description": "The coverage stays close to effort—hands on steel, a face turned from the sun—before a wide sets him against palms and pale façades. Hard backlight and shallow focus carry the sequence; nothing is forced.",
+    "services": [
+      "Production",
+      "Edit"
+    ],
+    "sort_order": 4,
+    "cover": {
+      "id": "workout-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/workout/workout-01.mp4?v=2",
+      "poster": "/media/workout/workout-01.jpg?v=2",
+      "alt": "Workout"
+    },
+    "assets": [
+      {
+        "id": "workout-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/workout/workout-01.mp4?v=2",
+        "poster": "/media/workout/workout-01.jpg?v=2",
+        "alt": "Workout"
+      },
+      {
+        "id": "workout-02",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/workout/workout-02.mp4?v=2",
+        "poster": "/media/workout/workout-02.jpg?v=2",
+        "alt": "Workout"
+      }
+    ]
+  },
+  {
+    "slug": "france",
+    "title": "FRANCE",
+    "client": "FRANCE",
+    "industry": "Travel",
+    "category": "travel",
+    "track": "personal-branding",
+    "location": null,
+    "summary": "A surfer, a cove, and a superyacht held in patient frames along one coast.",
+    "description": "Water-level frames keep a lone surfer centered in churning foam. Rock and foliage form a natural aperture onto a cove. From above, the yacht's wake draws a slow line across dark teal water; light stays even, nothing rushed.",
+    "services": [
+      "Production",
+      "Edit"
+    ],
+    "sort_order": 1,
+    "cover": {
+      "id": "france-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/france/france-01.mp4?v=2",
+      "poster": "/media/france/france-01.jpg?v=2",
+      "alt": "FRANCE"
+    },
+    "assets": [
+      {
+        "id": "france-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/france/france-01.mp4?v=2",
+        "poster": "/media/france/france-01.jpg?v=2",
+        "alt": "FRANCE"
+      }
+    ]
+  },
+  {
+    "slug": "rio-de-janeiro",
+    "title": "RIO DE JANEIRO",
+    "client": "RIO DE JANEIRO",
+    "industry": "Travel",
+    "category": "travel",
+    "track": "personal-branding",
+    "location": null,
+    "summary": "Rio in three registers: tiled steps, backlit foliage, one wide aerial over the bay.",
+    "description": "A guitarist on Selarón's tiled steps, held close in warm afternoon light. Leaves reduce to silhouette against a flared sky. The aerial settles over Christ the Redeemer and the bay — patient framing, natural exposure, unhurried rhythm.",
+    "services": [
+      "Production",
+      "Edit"
+    ],
+    "sort_order": 2,
+    "cover": {
+      "id": "rio-de-janeiro-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/rio-de-janeiro/rio-de-janeiro-01.mp4?v=2",
+      "poster": "/media/rio-de-janeiro/rio-de-janeiro-01.jpg?v=2",
+      "alt": "RIO DE JANEIRO"
+    },
+    "assets": [
+      {
+        "id": "rio-de-janeiro-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/rio-de-janeiro/rio-de-janeiro-01.mp4?v=2",
+        "poster": "/media/rio-de-janeiro/rio-de-janeiro-01.jpg?v=2",
+        "alt": "RIO DE JANEIRO"
+      }
+    ]
+  },
+  {
+    "slug": "parfume",
+    "title": "Parfume",
+    "client": "Parfume",
+    "industry": "Wellness Beauty",
+    "category": "wellness-beauty",
+    "track": "personal-branding",
+    "location": null,
+    "summary": "A citrus fragrance filmed in hard coastal light, from gesture to still life.",
+    "description": "Backlit on dark rock, a figure in white lifts the bottle against sea glare. Hard sun carries the coverage: a wide, a close portrait, then macro photo with split citrus. Few setups, patient framing, the object setting each pace.",
+    "services": [
+      "Production",
+      "Edit"
+    ],
+    "sort_order": 1,
+    "cover": {
+      "id": "parfume-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/parfume/parfume-01.mp4?v=2",
+      "poster": "/media/parfume/parfume-01.jpg?v=2",
+      "alt": "Parfume"
+    },
+    "assets": [
+      {
+        "id": "parfume-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/parfume/parfume-01.mp4?v=2",
+        "poster": "/media/parfume/parfume-01.jpg?v=2",
+        "alt": "Parfume"
+      }
+    ]
+  },
+  {
+    "slug": "tattoo-artist",
+    "title": "Tattoo Artist",
+    "client": "Tattoo Artist",
+    "industry": "Wellness Beauty",
+    "category": "wellness-beauty",
+    "track": "personal-branding",
+    "location": null,
+    "summary": "A Maori tattoo session rendered in close, low-lit, disciplined frames.",
+    "description": "Opens on a studio emblem in monochrome, then holds as gloved hands dip the needle into ink. Low key light follows the stencil's geometric linework across skin; tight framing and slow pacing keep focus on the maker's discipline.",
+    "services": [
+      "Production",
+      "Edit"
+    ],
+    "sort_order": 2,
+    "cover": {
+      "id": "tattoo-artist-01",
+      "kind": "video",
+      "orientation": "landscape",
+      "mp4": "/media/tattoo-artist/tattoo-artist-01.mp4?v=2",
+      "poster": "/media/tattoo-artist/tattoo-artist-01.jpg?v=2",
+      "alt": "Tattoo Artist"
+    },
+    "assets": [
+      {
+        "id": "tattoo-artist-01",
+        "kind": "video",
+        "orientation": "landscape",
+        "mp4": "/media/tattoo-artist/tattoo-artist-01.mp4?v=2",
+        "poster": "/media/tattoo-artist/tattoo-artist-01.jpg?v=2",
+        "alt": "Tattoo Artist"
+      }
+    ]
+  }
+]

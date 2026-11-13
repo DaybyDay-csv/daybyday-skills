@@ -1,0 +1,48 @@
+/* Bloques CSS del portfolio (extraídos de src/index.css del repo vivo).
+   Pégalo en el index.css del proyecto nuevo tras el @layer base.
+   Fuente canónica: src/index.css de remix-of-danylo-dolgov-portfolio. */
+/* Scroll con inercia (Lenis) */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+:root {
+  --nav-h: 76px;
+}
+
+/* ── Reel de proyectos ─────────────────────────────────────────────
+   Estilo Preymaker: cada proyecto es una sección de 200svh con dos capas
+   sticky (título y vídeo). Scroll libre, sin snap: el dwell lo da la
+   altura de la sección y el corte lo da el panel siguiente, que pinta
+   encima (isolation: isolate + orden DOM). Sin overflow en la sección:
+   un ancestor con overflow rompe el sticky. */
+.reel-panel {
+  height: 150svh;
+  min-height: 150svh;
+  isolation: isolate;
+}
+
+/* Sin scrims ni degradados: el texto se sostiene con sombra */
+.reel-title {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.55), 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.reel-sub {
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.6);
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar
