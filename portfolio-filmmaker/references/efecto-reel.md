@@ -140,8 +140,12 @@ animaciones a mitad de página). Mecánica:
 - `instant` (ya estaba en pantalla) → clases `is-in no-anim` (settled sin
   transición).
 
-**Gotcha que lo rompió:** olvidar pasar el `ref` del hook al elemento (el IO
-observaba null y no animaba nunca). Verificación de 3 casos: carga arriba +
+**Gotchas que lo rompieron:** (1) olvidar pasar el `ref` del hook al elemento
+(el IO observaba null y no animaba nunca); (2) clase `reveal-text` sin mecanismo
+que añada `is-in` → el elemento queda **invisible para siempre** (opacity 0) —
+ocurrió con la tarjeta Personal Branding en móvil y desktop: cuando haya varias
+tarjetas con reveal, cada una necesita SU PROPIO hook (componente por tarjeta,
+como `WorldCard` en TwoWorlds), nunca clases de reveal sueltas sin hook. Verificación de 3 casos: carga arriba +
 scroll → anima; reload a media página → asentado instantáneo; reload arriba →
 oculto esperando scroll.
 
