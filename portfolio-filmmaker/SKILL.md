@@ -71,7 +71,9 @@ blanco. Cover = primer asset por `sort_order`.
 4. **Transiciones y scroll**: cortina `PageTransition` + Lenis
    (`assets/smooth-scroll.ts`) + reveal por scroll en la home
    (`assets/useScrollReveal.ts`). Reglas en `references/efecto-reel.md`.
-5. **Backend self-service**: leer `references/backend-selfservice.md`. Aplicar
+5. **Backend self-service**: leer `references/backend-selfservice.md`. Los
+   verticales solo se ven en móvil (regla `auto`); selector Auto/Phone/Desktop
+   por asset en el admin. Aplicar
    `assets/migration.sql` (el cliente pega el SQL en el dashboard Supabase),
    seed con `assets/seed-supabase.mjs`, página `/admin`, candado en el footer
    (`<Link to="/admin">` con `Lock` w-3.5 muted, hover oro), robots cierra

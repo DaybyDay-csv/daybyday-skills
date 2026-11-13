@@ -138,3 +138,11 @@ create policy "Authenticated delete media bucket"
   on storage.objects for delete
   to authenticated
   using (bucket_id = 'media');
+
+-- ============================================================
+-- 8. Visibility per asset (2026-11-13)
+--    auto (default): portrait plays on phones only, landscape everywhere.
+--    mobile / desktop: forced per-device override from the admin.
+-- ============================================================
+alter table public.project_assets
+  add column if not exists visibility text not null default 'auto';

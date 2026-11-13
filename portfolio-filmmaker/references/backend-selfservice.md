@@ -29,6 +29,14 @@ La service key NO puede ejecutar DDL vía PostgREST → el SQL va en
   landscape|portrait, `video_url`, `video_portrait_url`, `poster_url`,
   `poster_portrait_url`, alt, sort_order. **Un asset puede llevar corte
   horizontal Y vertical** — el site elige por dispositivo.
+- `project_assets.visibility` (`auto`|`mobile`|`desktop`, default `auto`):
+  auto = los verticales SOLO se ven en móvil, los horizontales en ambos;
+  mobile/desktop = override por asset desde el admin. El selector "Show on"
+  del admin lo cambia; la regla vive en `assetVisibleOn` (src/data/types.ts)
+  y la aplican la galería (AssetGrid filtra por dispositivo) y las covers
+  (`cover` = primer asset de desktop, `coverMobile` = primer asset de móvil).
+  La regla auto funciona SIN la columna (mapper hace `?? "auto"`); la columna
+  solo hace falta para que el selector del admin persista.
 - RLS: SELECT público en ambas; INSERT/UPDATE/DELETE solo `authenticated`.
 - Bucket `media` público de lectura + sus policies.
 
